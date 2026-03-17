@@ -11,7 +11,7 @@ import java.util.*;
             int current = roomAvailability.getOrDefault(roomType, 0);
             roomAvailability.put(roomType, current + 1);
         }
-
+        git push origin feature/UC
         public int getCount(String roomType) {
             return roomAvailability.getOrDefault(roomType, 0);
         }
